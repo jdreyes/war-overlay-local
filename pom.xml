@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.autentia.ejemplos</groupId>
+    <groupId>com.autentia.tutoriales</groupId>
     <artifactId>war-overlay</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
@@ -15,10 +15,10 @@
 
         <plugin>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>2.5.1</version>
+            <version>3.1</version>
             <configuration>
-                <source>1.7</source>
-                <target>1.7</target>
+                <source>1.8</source>
+                <target>1.8</target>
             </configuration>
         </plugin>
 
@@ -30,7 +30,7 @@
                 <overlays>
                     <overlay>
                         <artifactId>exampleWar</artifactId>
-                        <groupId>com.autentia.ejemplos</groupId>
+                        <groupId>com.autentia.tutoriales</groupId>
                     </overlay>
                 </overlays>
             </configuration>
@@ -41,7 +41,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.autentia.ejemplos</groupId>
+            <groupId>com.autentia.tutoriales</groupId>
             <artifactId>exampleWar</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>system</scope>
