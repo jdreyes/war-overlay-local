@@ -1,0 +1,5 @@
+Tutoriales adictosaltrabajo
+http://www.adictosaltrabajo.com
+----------------------------
+
+Esto es un recurso de la propia aplicación web, que se incluirá en el overlay resultante
